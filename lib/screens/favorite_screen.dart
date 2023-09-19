@@ -65,8 +65,9 @@ class FavoriteScreen extends StatelessWidget {
                               height: 15,
                               width: 15,
                               decoration: BoxDecoration(
-                                  color: Colors.black,
-                                  borderRadius: BorderRadius.circular(15)),
+                                color: Colors.black,
+                                borderRadius: BorderRadius.circular(15),
+                              ),
                             ),
                           ),
                           Padding(
@@ -91,14 +92,16 @@ class FavoriteScreen extends StatelessWidget {
                           ),
                           ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                                primary: Colors.indigo,
-                                shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(10))),
+                              primary: Colors.indigo,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                            ),
                             onPressed: () {},
                             child: Text(
                               "Add to Cart",
                             ),
-                          )
+                          ),
                         ],
                       ),
                     ],
